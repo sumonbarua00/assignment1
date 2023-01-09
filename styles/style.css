@@ -1,0 +1,102 @@
+body{
+    width: auto;
+}
+header{
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+
+}
+header h1{
+    top: 20%;
+    position: relative;
+    left: 71%;
+}
+
+header p{
+    top: 20%;
+    position: relative;
+    left: 58%;
+}
+
+header button{
+    top: 28%;
+    position: relative;
+    left: 79%;
+    background-color: orange;
+    padding: 7px 15px;
+    border: none;
+}
+
+#img-of-failure{
+    height: 500px;
+    width: 400px;
+}
+
+#failure{
+    display: flex;
+    padding: 20px 160px;
+}
+
+#failure-div{
+    padding: 10px 160px;
+}
+
+#plans h2{
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+#names-of-plans{
+    display: flex;
+    margin: 30px 300px;
+    column-gap: 80px;
+}
+
+#contact{
+    background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0)), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: 700px;
+    margin: 0px 290px;
+}
+
+h3{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#contact button{
+    margin: 10px 30px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 2px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1200px;
+    padding: 20px 80px;
+}
+
+#footer-div-1{
+    margin-right: 200px;
+}
+
+#footer-div-2 button{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    display: block;
+    margin-top: 10px;
+}
